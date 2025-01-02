@@ -96,6 +96,7 @@ def datafile_read(file: os.PathLike, plotting=True):
     freq = 2000
     samples_s = len(vibration_data[:, 0]) / freq
     samples = np.linspace(0, samples_s, len(vibration_data[:, 0]))
+    axis_labels = ['X-axis', 'Y-axis', 'Z-axis']
 
     # plotting
     if plotting:
@@ -121,3 +122,7 @@ def datafile_read(file: os.PathLike, plotting=True):
         plt.grid()
         plt.show()
     return vibration_data
+
+
+
+

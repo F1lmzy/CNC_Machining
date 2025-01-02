@@ -7,7 +7,11 @@
 This repository contains the companion material for the following publication:
 > Tnani, Mohamed-Ali; Feil, Michael; Diepold, Klaus. Smart Data Collection System for Brownfield CNC Milling Machines: A New Benchmark Dataset for Data-Driven Machine Monitoring. Procedia CIRP2022,107, 131–136.
 
-# CNC Machining Data 
+# CNC Machining Vibration Analysis
+
+This project implements a CNN-based vibration analysis system for CNC machining data. It can detect anomalies in machining processes using vibration sensor data.
+
+## Project Structure
 
 Please cite this paper if using the dataset and direct any questions regarding the dataset to [Tnani Mohamed-Ali](mailto:mohamed-ali.tnani@boschrexroth.de). The paper can be found at the [CIRP CMS](https://doi.org/10.1016/j.procir.2022.04.022).
 
